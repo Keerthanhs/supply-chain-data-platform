@@ -1,0 +1,11 @@
+warehouse_id,warehouse_name,warehouse_type,city,state,country,capacity_units,status
+WH001,Warehouse 01,DISTRIBUTION,Bengaluru,Karnataka,India,464139,ACTIVE
+WH002,Warehouse 02,FULFILLMENT,Mumbai,Maharashtra,India,338442,ACTIVE
+WH003,Warehouse 03,DISTRIBUTION,Chennai,Tamil Nadu,India,88210,ACTIVE
+WH004,Warehouse 04,FULFILLMENT,Hyderabad,Telangana,India,216649,ACTIVE
+WH005,Warehouse 05,FULFILLMENT,Kochi,Kerala,India,165323,ACTIVE
+WH006,Warehouse 06,REGIONAL,Pune,Gujarat,India,322947,ACTIVE
+WH007,Warehouse 07,REGIONAL,Ahmedabad,Delhi,India,462225,ACTIVE
+WH008,Warehouse 08,FULFILLMENT,Delhi,Rajasthan,India,133556,ACTIVE
+WH009,Warehouse 09,DISTRIBUTION,Jaipur,West Bengal,India,334730,ACTIVE
+WH010,Warehouse 10,FULFILLMENT,Kolkata,Andhra Pradesh,India,261506,ACTIVE

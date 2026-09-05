@@ -1,0 +1,23 @@
+check_name,dataset,status,details
+duplicate_check,dim_customer,PASS,No duplicate records
+duplicate_check,dim_product,PASS,No duplicate records
+duplicate_check,dim_supplier,PASS,No duplicate records
+duplicate_check,dim_warehouse,PASS,No duplicate records
+duplicate_check,dim_date,PASS,No duplicate records
+required_columns,fact_orders,PASS,All required columns exist
+duplicate_check,fact_orders,PASS,No duplicate records
+positive_check_quantity,fact_orders,PASS,All values are positive
+non_negative_total_amount,fact_orders,PASS,No negative values
+referential_integrity,orders -> customers,PASS,All keys have matching parent records
+referential_integrity,orders -> products,PASS,All keys have matching parent records
+referential_integrity,orders -> warehouses,PASS,All keys have matching parent records
+required_columns,fact_inventory,PASS,All required columns exist
+duplicate_check,fact_inventory,PASS,No duplicate records
+non_negative_quantity_on_hand,fact_inventory,PASS,No negative values
+non_negative_reserved_quantity,fact_inventory,PASS,No negative values
+referential_integrity,inventory -> products,PASS,All keys have matching parent records
+referential_integrity,inventory -> warehouses,PASS,All keys have matching parent records
+required_columns,fact_shipments,PASS,All required columns exist
+duplicate_check,fact_shipments,PASS,No duplicate records
+non_negative_shipping_cost,fact_shipments,PASS,No negative values
+referential_integrity,shipments -> warehouses,PASS,All keys have matching parent records
